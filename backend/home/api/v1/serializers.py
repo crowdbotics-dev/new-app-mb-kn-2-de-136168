@@ -77,7 +77,6 @@ class PasswordSerializer(PasswordResetSerializer):
 
 
 class ScreenSerializer(serializers.ModelSerializer):
-
     class Meta:
         model = Screen
         fields = "__all__"
